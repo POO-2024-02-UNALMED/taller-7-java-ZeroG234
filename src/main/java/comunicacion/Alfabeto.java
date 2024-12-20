@@ -24,8 +24,7 @@ public class Alfabeto extends Pictograma{
             letras += letra + ", ";
         }
 
-        letras = letras.substring(0, letras.length() - 1);
-
+        letras = letras.substring(0, letras.length() - 2);
         return letras;
     }
 
